@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Product of chanel",
+    "children" : [ {
+      "name" : "search Product into seachbar",
+      "uid" : "f8e40c06a85046ba",
+      "parentUid" : "fc6ace178f4a990a70fddcc1d16f8820",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649324961614,
+        "stop" : 1649324977835,
+        "duration" : 16221
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Add product to cart",
+      "uid" : "96c33aa1df84963",
+      "parentUid" : "fc6ace178f4a990a70fddcc1d16f8820",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649324978009,
+        "stop" : 1649325003935,
+        "duration" : 25926
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fc6ace178f4a990a70fddcc1d16f8820"
+  } ]
+}

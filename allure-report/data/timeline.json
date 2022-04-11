@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "ismail-ThinkPad-E15",
+    "children" : [ {
+      "name" : "8326@ismail-ThinkPad-E15.main(1)",
+      "children" : [ {
+        "name" : "Add product to cart",
+        "uid" : "96c33aa1df84963",
+        "parentUid" : "05434634d8de6da2eecf06171a0734e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649324978009,
+          "stop" : 1649325003935,
+          "duration" : 25926
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "search Product into seachbar",
+        "uid" : "f8e40c06a85046ba",
+        "parentUid" : "05434634d8de6da2eecf06171a0734e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649324961614,
+          "stop" : 1649324977835,
+          "duration" : 16221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "05434634d8de6da2eecf06171a0734e4"
+    } ],
+    "uid" : "1bf744324cbdd625456c1ed0c1c02ed8"
+  } ]
+}

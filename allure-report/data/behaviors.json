@@ -1,0 +1,51 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Product of chanel",
+    "children" : [ {
+      "name" : "search Product into seachbar",
+      "children" : [ {
+        "name" : "search Product into seachbar",
+        "uid" : "f8e40c06a85046ba",
+        "parentUid" : "e3c97d00b50e2192a743074909c121b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649324961614,
+          "stop" : 1649324977835,
+          "duration" : 16221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e3c97d00b50e2192a743074909c121b2"
+    }, {
+      "name" : "Add product to cart",
+      "children" : [ {
+        "name" : "Add product to cart",
+        "uid" : "96c33aa1df84963",
+        "parentUid" : "e840005a9003f5e68ff65272c31d65a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649324978009,
+          "stop" : 1649325003935,
+          "duration" : 25926
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e840005a9003f5e68ff65272c31d65a2"
+    } ],
+    "uid" : "1b763dcc6416f06f06c02b9e16b9f00d"
+  } ]
+}

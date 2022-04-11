@@ -1,0 +1,196 @@
+{
+  "uid" : "f8e40c06a85046ba",
+  "name" : "search Product into seachbar",
+  "fullName" : "Product of chanel: search Product into seachbar",
+  "historyId" : "dd6f2c091bbf655fd2595583407532ef",
+  "time" : {
+    "start" : 1649324961614,
+    "stop" : 1649324977835,
+    "duration" : 16221
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "stepDefintions.Hooks.setUpDriver()",
+    "time" : {
+      "start" : 1649324961618,
+      "stop" : 1649324965838,
+      "duration" : 4220
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  The user access to the site",
+      "time" : {
+        "start" : 1649324965845,
+        "stop" : 1649324970060,
+        "duration" : 4215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  The user click on the search bar",
+      "time" : {
+        "start" : 1649324970061,
+        "stop" : 1649324970279,
+        "duration" : 218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  The User search for word into search bar \"ROUGE ALLURE\"",
+      "time" : {
+        "start" : 1649324970279,
+        "stop" : 1649324970701,
+        "duration" : 422
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  The user Check if the displayed list items contain the desired word",
+      "time" : {
+        "start" : 1649324970702,
+        "stop" : 1649324971971,
+        "duration" : 1269
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  The user Select the second item from the list",
+      "time" : {
+        "start" : 1649324971971,
+        "stop" : 1649324977356,
+        "duration" : 5385
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  Verify that the product name displayed is the same as the one previously selected..",
+      "time" : {
+        "start" : 1649324977356,
+        "stop" : 1649324977393,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "stepDefintions.Hooks.before_or_after(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1649324977394,
+      "stop" : 1649324977833,
+      "duration" : 439
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ismail-ThinkPad-E15"
+  }, {
+    "name" : "thread",
+    "value" : "8326@ismail-ThinkPad-E15.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Product of chanel"
+  }, {
+    "name" : "story",
+    "value" : "search Product into seachbar"
+  }, {
+    "name" : "suite",
+    "value" : "Product of chanel"
+  }, {
+    "name" : "testClass",
+    "value" : "search Product into seachbar"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/ismail/Documents/test-automation-framework-maven-selenium-cucumber-junit-allure/src/test/java/features/A/01-Feature.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.A.01-Feature_feature.Product of chanel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f8e40c06a85046ba.json",
+  "parameterValues" : [ ]
+}

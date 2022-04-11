@@ -1,0 +1,21 @@
+[ {
+  "uid" : "96c33aa1df84963",
+  "name" : "Add product to cart",
+  "time" : {
+    "start" : 1649324978009,
+    "stop" : 1649325003935,
+    "duration" : 25926
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8e40c06a85046ba",
+  "name" : "search Product into seachbar",
+  "time" : {
+    "start" : 1649324961614,
+    "stop" : 1649324977835,
+    "duration" : 16221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

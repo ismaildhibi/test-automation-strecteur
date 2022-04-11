@@ -1,0 +1,53 @@
+pipeline {
+  agent {
+    kubernetes {
+      //cloud 'kubernetes'
+      label 'jenkins'
+      yaml """
+apiVersion: v1
+kind: Pod
+spec:
+  containers:
+  - name: maven
+    image: maven:3.8.4-openjdk-11-slim
+    command: ['cat']
+    tty: true
+    resources:
+      requests:
+        memory: "2000Mi"
+      limits:
+        memory: "2000Mi"
+
+"""
+    }
+  }
+  stages {
+    stage('Test maven') {
+      steps {
+        container('maven') {
+          sh 'mvn clean test -X'
+        }
+      }
+    }
+    stage('reports') {
+    steps {
+    script {
+            allure([
+                    includeProperties: false,
+                    jdk: '',
+                    properties: [],
+                    reportBuildPolicy: 'ALWAYS',
+                    results: [[path: 'target/allure-results']]
+            ])
+    }
+    }
+}
+  }
+   environment{
+    DATA_PATH="${PWD}/src/main/resources/data"
+ }
+  
+}
+
+
+
